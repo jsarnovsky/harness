@@ -1,0 +1,20 @@
+Kind: Namespace
+apiVersion: v1
+metadata:
+  name: dev
+  labels:
+    name: dev
+---
+Kind: Namespace
+apiVersion: v1
+metadata:
+  name: stage
+  labels:
+    name: stage
+---
+Kind: Namespace
+apiVersion: v1
+metadata:
+  name: prod
+  labels:
+    name: prod
