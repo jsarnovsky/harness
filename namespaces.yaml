@@ -1,18 +1,18 @@
-Kind: Namespace
+kind: Namespace
 apiVersion: v1
 metadata:
   name: dev
   labels:
     name: dev
 ---
-Kind: Namespace
+kind: Namespace
 apiVersion: v1
 metadata:
   name: stage
   labels:
     name: stage
 ---
-Kind: Namespace
+kind: Namespace
 apiVersion: v1
 metadata:
   name: prod
